@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.singleContainer {
+  width: 50%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+
+  border-top: 3px solid rgba(102, 51, 153, 0.8);
+}
+
+.img {
+  border-radius: 50%;
+  margin: 0.3rem 0.5rem 0.3rem 0;
+}
+
+.linkContainer a {
+  text-decoration: none;
+  color: rebeccapurple;
+  line-height: 1rem;
+}
+
+.linkContainer .link strong {
+  display: block;
+  /* display: inline-block; */
+  font-size: 0.7em;
+}
