@@ -12,7 +12,7 @@
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.1.3",
     "gatsby-source-filesystem": "^2.0.38",
-    "gatsby-source-twitter": "git://github.com/G100g/gatsby-source-twitter.git#3.0.0",
+    "gatsby-source-twitter": "^3.0.0-rc1",
     "gatsby-transformer-sharp": "^2.1.21",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
