@@ -9,7 +9,7 @@ function TweetCard({ text, id, user }) {
     <div className={styles.singleContainer}>
       <SingleTweet key={id} text={text} />
       {user && (
-        <p className={styles.author}>
+        <div className={styles.author}>
           <img
             className={styles.img}
             src={user.profile_image_url_https}
@@ -27,7 +27,7 @@ function TweetCard({ text, id, user }) {
               <strong>{user.screen_name}</strong>
             </a>
           </div>
-        </p>
+        </div>
       )}
     </div>
   )

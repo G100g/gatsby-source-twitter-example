@@ -5,7 +5,7 @@ import TweetCard from "./tweet-card"
 
 import styles from "./gatsby-tweets.module.css"
 
-function GatsbyTweets() {
+function GatsbyHashtagTweets() {
   const { allTwitterSearchTweetsHashtagGatsby: data } = useStaticQuery(
     graphql`
       query {
@@ -43,11 +43,11 @@ function GatsbyTweets() {
         {data.edges
           .map(({ node }) => node)
           .map(({ full_text, id_str, user }) => (
-            <TweetCard text={full_text} id={id_str} user={user} />
+            <TweetCard key={id_str} text={full_text} id={id_str} user={user} />
           ))}
       </div>
     </div>
   )
 }
 
-export default GatsbyTweets
+export default GatsbyHashtagTweets
