@@ -8,6 +8,7 @@ import GatsbyHashtagTweets from "../components/gatsby-hashtag-tweets"
 import FixedTweet from "../components/fixed-tweet"
 import OembedTweet from "../components/oembed-tweets"
 import ListsMembers from "../components/lists-members"
+import ListsStatuses from "../components/lists-statuses"
 
 const IndexPage = () => (
   <Layout>
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <GatsbyHashtagTweets />
     <OembedTweet />
     <ListsMembers />
+    <ListsStatuses />
 
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />

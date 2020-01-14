@@ -78,6 +78,14 @@ module.exports = {
               owner_screen_name: "g100g",
             },
           },
+          listsStatuses: {
+            endpoint: "lists/statuses",
+            params: {
+              slug: "games-to-follow",
+              owner_screen_name: "g100g",
+              tweet_mode: "extended",
+            },
+          },
         },
       },
     },
