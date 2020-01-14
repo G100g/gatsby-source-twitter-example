@@ -34,3 +34,9 @@
   /* display: inline-block; */
   font-size: 0.7em;
 }
+
+.userLocation {
+  display: block;
+  color: rebeccapurple;
+  font-size: 0.8em;
+}

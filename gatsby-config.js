@@ -71,6 +71,13 @@ module.exports = {
               url: "https://twitter.com/kylemathews/status/1141289550452592640",
             },
           },
+          listsMember: {
+            endpoint: "lists/members",
+            params: {
+              slug: "games-to-follow",
+              owner_screen_name: "g100g",
+            },
+          },
         },
       },
     },
