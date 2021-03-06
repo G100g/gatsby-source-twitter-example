@@ -61,7 +61,7 @@ module.exports = {
           singleTweet: {
             endpoint: "statuses/show",
             params: {
-              id: "1041804966598299648",
+              id: "1366808266907525123",
               tweet_mode: "extended",
             },
           },
