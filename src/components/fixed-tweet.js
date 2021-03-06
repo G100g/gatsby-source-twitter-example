@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import SingleTweet from "./single-tweet"
 
-import styles from "./fixed-tweet.module.css"
+import * as styles from "./fixed-tweet.module.css"
 
 function FixedTweet() {
   const {

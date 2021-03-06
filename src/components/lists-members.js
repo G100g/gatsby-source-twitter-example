@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import styles from "./gatsby-tweets.module.css"
+import * as styles from "./gatsby-tweets.module.css"
 
 import UserCard from "./user-card"
 
@@ -32,8 +32,8 @@ function ListsMembers() {
       <div className={styles.container}>
         {data.edges
           .map(({ node }) => node)
-          .map(user => (
-            <div className={styles.singleContainer}>
+          .map((user) => (
+            <div key={user.screen_name} className={styles.singleContainer}>
               <UserCard user={user} />
 
               <p>{user.description}</p>

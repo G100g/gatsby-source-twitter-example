@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import styles from "./oembed-tweet.module.css"
+import * as styles from "./oembed-tweet.module.css"
 
 function OembedTweet() {
   const {

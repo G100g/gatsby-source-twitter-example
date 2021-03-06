@@ -3,7 +3,7 @@ import { Twemoji } from "react-emoji-render"
 import SingleTweet from "./single-tweet"
 import UserCard from "./user-card"
 
-import styles from "./gatsby-tweets.module.css"
+import * as styles from "./gatsby-tweets.module.css"
 
 function TweetCard({ text, id, user }) {
   return (

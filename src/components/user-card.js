@@ -1,7 +1,7 @@
 import React from "react"
 import { Twemoji } from "react-emoji-render"
 
-import styles from "./gatsby-tweets.module.css"
+import * as styles from "./gatsby-tweets.module.css"
 
 function UserCard({ user }) {
   return (

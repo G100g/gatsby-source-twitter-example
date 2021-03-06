@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import TweetCard from "./tweet-card"
 
-import styles from "./gatsby-tweets.module.css"
+import * as styles from "./gatsby-tweets.module.css"
 
 function ListsStatuses() {
   const { allTwitterListsStatusesListsStatuses: data } = useStaticQuery(
