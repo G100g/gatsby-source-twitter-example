@@ -15,8 +15,9 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -61,7 +62,7 @@ module.exports = {
           singleTweet: {
             endpoint: "statuses/show",
             params: {
-              id: "1366808266907525123",
+              id: "1471486791681298436",
               tweet_mode: "extended",
             },
           },
